@@ -1,0 +1,145 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    width: auto;
+    height: auto;
+}
+#innernav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:450px;
+}
+.active{
+    width:80px;
+    height:30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+}
+.icon i{
+    font-size: 18px;
+    color: #000;
+    margin: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+header {
+    background-color: rgb(235, 175, 21);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h3,h1{
+    color: gold;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    font-size: large;
+}
+button{
+    width:80px;
+    height:30px;
+    border-radius: 5px;
+    background-color: rgb(235, 175, 21);
+    box-shadow: 3px 3px 10px black;
+}
+body {
+    background-image: linear-gradient(to right,white,rgb(252, 252, 221));
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+.menu-section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-category h2 {
+    color: #ff5722;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff5722;
+    padding-bottom: 10px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.item-description {
+    margin: 5px 0 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+@media (max-width: 600px) {
+   
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .banner {
+        height: 200px;
+    }
+
+    .banner h2 {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .intro {
+        padding: 20px;
+    }
+
+    .featured-menu {
+        padding: 20px;
+    }
+
+    .featured-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+

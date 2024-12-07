@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Court Order Page</title>
+    <link rel="stylesheet" href="../ram food court/tam.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Food Court Menu</h1>
+        <div class="menu">
+            <div class="card" data-item="Idly" data-price="30">
+                <h2>Idly</h2>
+                <img src="../"
+                <p>Price: $30</p>
+                <button class="order-btn">Order</button>
+            </div>
+            <div class="card" data-item="vadai" data-price="15">
+                <h2>Vadai</h2>
+                <p>Price: $15</p>
+                <button class="order-btn">Order</button>
+            </div>
+            <div class="card" data-item="Pasta" data-price="8">
+                <h2>Pasta</h2>
+                <p>Price: $8</p>
+                <button class="order-btn">Order</button>
+            </div>
+            <!-- Add more food items as needed -->
+        </div>
+
+        <div class="bill-section">
+            <h2>Your Bill</h2>
+            <ul id="bill-list"></ul>
+            <p id="total">Total: $0</p>
+            <button id="place-order-btn">Place Order</button>
+        </div>
+
+        <div class="confirmation" id="confirmation">
+            <h2>Thank you for your order!</h2>
+            <p id="final-bill"></p>
+        </div>
+    </div>
+
+    <script src="../ram food court/tam.js"></script>
+</body>
+</html>

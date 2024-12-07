@@ -1,0 +1,150 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    width: auto;
+    height: auto;
+}
+#innernav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:450px;
+}
+.icon i{
+    font-size: 18px;
+    color: #000;
+    margin: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+h3,h1{
+    color: gold;
+}
+.active{
+    width:80px;
+    height:30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+
+}
+header {
+    background-color: rgb(235, 175, 21);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    font-size: large;
+}
+button{
+    width:80px;
+    height:30px;
+    border-radius: 5px;
+    background-color: rgb(235, 175, 21);
+    box-shadow: 3px 3px 10px black;
+}
+body{
+    background-image: linear-gradient(to right,white,rgb(252, 252, 221));
+}
+h1 {
+    margin: 0;
+}
+
+.about-section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+    color: #ff5722;
+}
+
+.about-content p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.why-choose-us h3 {
+    color: #ff5722;
+    margin-top: 40px;
+}
+
+.why-choose-us ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.why-choose-us ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+.about-section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+    color: #ff5722;
+}
+
+.about-content p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.why-choose-us h3 {
+    color: #ff5722;
+    margin-top: 40px;
+}
+
+.why-choose-us ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.why-choose-us ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
